@@ -14,7 +14,6 @@ Ask for a real number that represents a price and show
 the price with IVA. IVA is 21%.
      */
      
-    
         Scanner sc = new Scanner (System.in);
      sc.useLocale(Locale.US); //Esto es para que pongamos el punto en el precio
         final double iva = 0.21;
@@ -30,12 +29,6 @@ the price with IVA. IVA is 21%.
     
         System.out.println("-----------------------------------");
         
-
-
-
-
-
-
 
 //Ask for a number in seconds and indicate how many hours, minutes and seconds they are equivalent to.
         Scanner kb = new Scanner (System.in);
@@ -54,12 +47,8 @@ the price with IVA. IVA is 21%.
         
         System.out.println("Those are " +hours+ " hour/s, " + mins + " minute/s, "+secs+ " second/s");
     
-        
-        
         System.out.println("-----------------------------------");
 
-           
-        
         
  //Ask for a word or phrase trough the console and invert it
         Scanner scan = new Scanner (System.in);
@@ -77,12 +66,9 @@ the price with IVA. IVA is 21%.
             inverted += character; }
            
         System.out.println("Inverted: " + inverted);
-            
         
         System.out.println("-----------------------------------");
         
-
-
 
 //Generate 10 random numbers between 0 and 10.
         Math.random();
@@ -98,10 +84,6 @@ the price with IVA. IVA is 21%.
             random =(int) (Math.random() * (maximo - minimo +1)+ (minimo));
             System.out.println(random);
         }
-        
-        
-        
-        
         
         System.out.println("-----------------------------------");
 //Ask for a phrase trough the console and shows if it is palindrome.
